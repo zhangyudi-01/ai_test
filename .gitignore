@@ -143,6 +143,6 @@ vite.config.ts.timestamp-*
 .vite/
 
 # Idea
-.idea/
-
+.idea
+.idea/*
 
