@@ -9,3 +9,7 @@
 #     print(f'Hi, {name}')  # 按 Ctrl+F8 切换断点。
 
 # match_sport_names = {1: "足球", 2: "篮球"}
+match_id = '25041'
+warning_map = {'25041':None}
+warning = warning_map.get(match_id) or []
+print(warning)
