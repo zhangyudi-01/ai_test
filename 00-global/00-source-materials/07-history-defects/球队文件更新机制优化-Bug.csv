@@ -1,0 +1,6 @@
+"Bug编号","Bug标题","严重程度","优先级","重现步骤","Bug状态","解决方案"
+"1132","实时推送服务，存在数据快照不一致问题","2","4","[步骤]
+[结果]
+如果在生成game_draw文件后，还未生成matchup、team、league文件前，新增了一个奖期，会导致matchup等文件查询的draw_id和game_draw查询的draw_id不一致
+[期望]
+根本原因是matchup等文件查询draw_id时是实时查询的，应该同一都用查询game_draw时的draw_id","已解决","不予解决",""
